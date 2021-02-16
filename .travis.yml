@@ -1,12 +1,11 @@
-os:
-  - linux
+sudo: true
+dist: xenial
 arch:
- - amd64
- - ppc64le
-language: cpp
-
-dist: trusty
-
+  - amd64
+  - ppc64le
+language: c++
+os:
+ - linux
 addons:
   apt:
     sources:
